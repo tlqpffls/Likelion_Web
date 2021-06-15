@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var txt = 'I can eat bananas all day';
+            var x = txt.slice(10);
+            alert('from 10 to 17 : ' + x)
+
+            document.getElementById('text').innerText =
+                'full text : ' + txt + '\n' + 'slice text : ' + x
+        }, false);
+    </script>
+</head>
+<body>
+<div id="text"></div>
+
+</body>
+</html>
